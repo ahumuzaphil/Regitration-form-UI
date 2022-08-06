@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&family=Roboto+Mono:wght@300&family=Water+Brush&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+.container{
+    background-color: rgb(245, 241, 241);
+    border-radius: 4px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 10px 50px 0px ;
+    font-size: 0.8rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+
+}
+input{
+    width: 22rem;
+    height: 1.5rem;
+    padding: 2px;
+}
+#male{
+    background-color: rgb(75, 204, 243);
+    width: 16px;
+    height: 14px;
+    border-radius: 29px;
+    cursor: pointer; 
+    border: 1px solid grey;
+    margin-left: 2px;
+    margin-right: 6px;
+    
+}
+#female{
+    background-color: rgb(75, 204, 243);
+    width: 16px;
+    height: 14px;
+    border-radius: 29px;
+    cursor: pointer;
+    border: 1px solid grey;
+    margin-left: 2px;
+}
+form{
+   /* background-color: rgb(224, 221, 221);*/
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: px;
+
+}
+#name{
+    margin-bottom: 1rem;
+}
+.first-el{
+    color: red;
+}
+#email{
+    margin-bottom: 1rem;
+}
+.second-el{
+    color: red;
+}
+#password{
+    margin-bottom: 1rem;
+}
+.third-el{
+    color: rgb(255, 0, 0);
+}
+.sex{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+
+}
+.forth-el{
+    color: red;
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+    
+}
+#submit{
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    height: 2rem;
+}
+#submit:hover{
+    /*border: 1px solid ;*/
+    height: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: ease 0.3s;
+}

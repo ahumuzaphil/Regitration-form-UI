@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Registration form</h2>
+        <form action="">
+            <div id="name">
+            <label for="Name">Username:</label><br>
+            <input type="text" id="name_el" name="name"><br>
+            <p class="first-el"></p>
+            </div>
+        <div id="email">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email_el" name="email"><br>
+            <p class="second-el"></p>
+        </div> 
+        <div id="password">
+             <label for="password">Password:</label><br>
+            <input type="password" id="password_el" name="password"><br>
+            <p class="third-el"></p>
+        </div>
+            <label for="gender"><h4>Gender</h4></label><br>
+        <div class="sex">
+            <label for="male">Male</label>
+            <input name="btn" type="radio" id="male">
+            <label for="female">Female</label>
+            <input name="btn" type="radio" id="female">
+            
+        </div>
+        <p class="forth-el"></p>
+        
+            <input type="submit" id="submit" value="submit">
+
+        </form>
+    </div>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
