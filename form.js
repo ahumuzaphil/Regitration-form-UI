@@ -36,7 +36,7 @@ function submit(event) {
     }  if(!emailEl.value){
         secondEl.innerHTML = "please enter email"
         setTimeout(() => secondEl.remove(), 3000)
-    } else if(!passwordEl.value){
+    }  if(!passwordEl.value){
         thirdEl.innerHTML = "please enter password"
         setTimeout(() => thirdEl.remove(), 3000)
     } else if(!maleEl){
